@@ -19,22 +19,6 @@ Welcome to **AI Interview Assistant** – a smart, intuitive platform designed t
 - **AI Evaluation:** Automated scoring and candidate summaries for quick decision-making.
 - **Performance Analytics:** Visualize progress and score distributions with beautiful charts.
 
----
-
-## 🖼️ Screenshots
-
-### Interviewee Experience
-<p align="center">
-  <img src="enterviwee.png" width="600" alt="App demo screenshot">
-</p> 
-
-### Interviewer Dashboard
-<p align="center">
-  <img src="enterview-dashboard.png" width="600" alt="App demo screenshot">
-</p> 
-
----
-
 ## 🌐 Live Demo
 
 👉 **[Click here to try the live app](https://ai-powered-interview-assistant-inte.vercel.app/)**
