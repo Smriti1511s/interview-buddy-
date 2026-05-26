@@ -1,6 +1,6 @@
 # Mock Buddy Platform
 
-Build AI Mock Buddy platform that helps users to prepare for interviews using AI-driven questions and timed mock interviews.
+Build  AI Mock Buddy platform that helps users  to prepare for interviews using AI-driven questions and timed mock interviews.
 
 ## Project Purpose
 
@@ -57,7 +57,7 @@ Create a drag-and-drop resume upload system with:
 - File type and size validation
 - Upload progress indicator
 - Retry and error handling
-- "Load Sample Resume" option
+- “Load Sample Resume” option
 
 **Why this is needed:**
 To let users upload resumes easily and ensure only valid files are processed.
@@ -67,14 +67,14 @@ Use Gemini API to extract structured resume data.
 
 #### Data Preprocessing
 Perform:
-- Text Cleaning & Normalization - Your resume often has extra spaces, broken lines, and messy formatting. This step quietly clear all of it up so the AI reads clean, consistent text instead of noise.
-- Duplicate Removal - Listed React in your skills and inside three job descriptions? This step catches every repeated word, skill, or phrase and keeps just one clean version so nothing gets over-counted.
-- Tokenization - Long sentences don't mean much to a machine. This step breaks your resume down into smaller, meaningful word chunks that the system can actually analyze and understand one piece at a time.
-- Lemmatization - You wrote "developed." Someone else wrote "developing." Another wrote "developer." This step brings all of them back to the same root word so no experience gets missed just because of how it was worded.
-- Section Detection - Not every resume uses the same headings. This step reads through your content and figures out which part is your Skills, which is your Experience, and which is your Education - even if you named them something different.
+- **Text Cleaning & Normalization** — Your resume often has extra spaces, broken lines, and messy formatting. This step quietly clear all of it up so the AI reads clean, consistent text instead of noise.
+- **Duplicate Removal** — Listed React in your skills and inside three job descriptions? This step catches every repeated word, skill, or phrase and keeps just one clean version so nothing gets over-counted.
+- **Tokenization** — Long sentences don't mean much to a machine. This step breaks your resume down into smaller, meaningful word chunks that the system can actually analyze and understand one piece at a time.
+- **Lemmatization** — You wrote "developed." Someone else wrote "developing." Another wrote "developer." This step brings all of them back to the same root word so no experience gets missed just because of how it was worded.
+- **Section Detection** — Not every resume uses the same headings. This step reads through your content and figures out which part is your Skills, which is your Experience, and which is your Education — even if you named them something different.
 
 **Why this is needed:**
-Preprocessing improves extraction accuracy and reduces errors.
+Preprocessing  improves extraction accuracy and reduces errors.
 
 **Buttons:**
 - Re-upload Resume
@@ -103,7 +103,7 @@ Show interview summary:
 - Auto-submit on timeout
 
 **Why this is needed:**
-To personalize the interview experience based on the user's role and experience level.
+To personalize the interview experience based on the user’s role and experience level.
 
 ### 5. Live AI Interview
 Build a real-time chat-style interview interface:
@@ -120,7 +120,7 @@ To simulate a real interview environment and keep the session interactive and ti
 
 ### 6. AI Evaluation & Feedback
 Use AI to evaluate answers and generate:
-- Overall score (0-100)
+- Overall score (0–100)
 - Letter grade
 - Strengths and improvements
 - Per-question feedback
