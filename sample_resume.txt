@@ -1,0 +1,43 @@
+=========================================
+JOHN DOE - SENIOR FULL-STACK ENGINEER
+=========================================
+Email: john.doe@email.com
+Phone: (555) 019-2834
+Location: San Francisco, CA
+Website: github.com/johndoe | linkedin.com/in/johndoe
+
+PROFESSIONAL SUMMARY:
+Highly motivated and results-driven Senior Full-Stack Engineer with 8+ years of experience designing, building, and deploying highly scalable web applications. Expert in React, Node.js, TypeScript, and cloud-native database architectures. Passionate about AI integrations, developer experience, and frontend excellence.
+
+CORE SKILLS:
+* Languages: JavaScript, TypeScript, HTML5, CSS3, SQL, Python, Go
+* Frontend: ReactJS, Next.js, Tailwind CSS, Redux, Webpack, Vitest
+* Backend: Node.js, Express, REST APIs, GraphQL, PostgreSQL, Redis
+* Cloud/DevOps: AWS (S3, EC2, Lambda), Docker, GitHub Actions, CI/CD
+
+PROFESSIONAL EXPERIENCE:
+Senior Full-Stack Architect | Stripe
+March 2023 - Present | San Francisco, CA
+* Led a high-impact engineering team of 5 to redesign Stripe's developer dashboard UI, resulting in a 35% improvement in page loading speeds.
+* Architected a real-time analytics aggregation service in Node.js and Redis, capable of processing 10,000+ transactional events per second.
+* Pioneered standard TypeScript and ESLint strict rule setups, decreasing frontend production bugs by 20%.
+
+Full-Stack Developer | Cloud Sentry
+June 2020 - February 2023 | Seattle, WA
+* Created and maintained an AI-driven system logging dashboard in React and Go, allowing enterprise customers to visualize log events in real-time.
+* Engineered secure, scalable REST APIs using Express and PostgreSQL, handling over 2 million daily requests with a 99.99% uptime SLA.
+* Designed and deployed automated containerized workflows using Docker and AWS ECS, reducing deployment cycle times by 40%.
+
+KEY PROJECTS:
+* Cloud Sentry Dashboard: An AI-driven logging UI built with React and Go, utilizing WebSockets for live logging streams.
+* FinTech Pay: A secure personal ledger application built with React Native and Node.js, incorporating biometric security parameters.
+
+EDUCATION:
+* Bachelor of Science in Computer Science
+  Stanford University | Class of 2022
+  GPA: 3.85 / 4.00
+
+CERTIFICATIONS:
+* AWS Certified Solutions Architect - Associate (2024)
+* React Security & Performance Specialist (2023)
+=========================================

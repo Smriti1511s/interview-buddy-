@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Interview Buddy - Timed Mock Assessments</title>
+  
+  <!-- SEO Tags -->
+  <meta name="description" content="Prepare for interviews using your resume. Experience timed AI interviews with automatic submissions, analytical scoring, and diagnostic coaching feedback.">
+  <meta name="keywords" content="AI interview, mock interview, resume parser, timed interview, coding assessment, system design, interview preparation">
+  <meta name="author" content="Antigravity Team">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          animation: {
+            'spin-slow': 'spin 8s linear infinite',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons Web CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Mammoth.js Word Parser CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.7.2/mammoth.browser.min.js"></script>
+
+  <!-- PDF.js PDF Parser CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+
+  <!-- React 17 CDN (Babel compatible) -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Babel CDN for on-the-fly JSX parsing in standalone file execution -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Custom Core Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="h-full antialiased font-sans">
+  
+  <!-- Root Container for React SPA -->
+  <div id="root">
+    <!-- Standalone Loader presented prior to React bundle hydration -->
+    <div class="flex items-center justify-center min-h-screen bg-[#0b0f19]">
+      <div class="text-center space-y-4">
+        <div class="w-12 h-12 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+        <div class="space-y-1">
+          <h2 class="text-white font-extrabold tracking-tight text-sm">Loading Interview Buddy AI...</h2>
+          <p class="text-slate-500 text-[10px] uppercase tracking-widest font-bold">Hydrating React Components</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Custom React Engine and execute inside Babel context -->
+  <script type="text/babel" src="app.js"></script>
+
+  <!-- Global Handler to invoke Lucide SVG parsing dynamically -->
+  <script>
+    // Set interval to periodically catch and compile newly rendered Lucide elements
+    setInterval(() => {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    }, 500);
+  </script>
+</body>
+</html>
